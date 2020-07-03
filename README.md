@@ -17,3 +17,8 @@
 - `services` 服务层，业务逻辑代码在这一层编写，通过不同的接口获取的数据转换成统一的前端所需要的数据
 - `app.js` 主项目入口文件
 - `package.json` 项目配置文件
+#### 项目运行安装
+- 先运行 `npm install` 安装依赖包
+- 数据库文件在 `db\mydb.sql`
+- 数据库配置在 `config\default.json`
+- 配置好后运行 `node app.js`
